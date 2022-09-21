@@ -1,0 +1,35 @@
+img{
+    width: 300px;
+    height: 300px;
+}
+.myFirstDiv{
+    border: 5px solid rgb(0, 81, 255);
+  background-color: rgb(181, 42, 209);
+  text-align: center;
+  margin: 20px; 
+  padding: 10px; 
+  color: rgb(52, 173, 54);
+}
+.mySecondDiv2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 5px solid rgb(0, 57, 13);
+  background-color: rgb(129, 126, 211);
+  text-align: center;
+  margin: 30px 35px 35px 40px; 
+  padding: 5px; 
+  color: rgb(255, 255, 255);
+  background-image: url(/images/Nyhet-bakgrunn.jpg);
+  justify-content: center;
+  background-size: cover;
+}
+.myThirdDiv{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 5px solid rgb(0, 57, 13);
+  background-color: rgb(129, 126, 211);
+  text-align: center;
+  margin: 60px 35px 35px 40px; 
+  padding: 5px; 
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+}
