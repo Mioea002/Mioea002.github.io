@@ -1,35 +1,52 @@
-img{
-    width: 300px;
-    height: 300px;
+#welcome-section{
+    background-image: url(/images/950x350-dim-gray-solid-color-background.jpg);
+    background-size: cover;
+    color: black;
+    height: 6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.myFirstDiv{
-    border: 5px solid rgb(0, 81, 255);
-  background-color: rgb(181, 42, 209);
-  text-align: center;
-  margin: 20px; 
-  padding: 10px; 
-  color: rgb(52, 173, 54);
+
+#welcome-section h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
 }
-.mySecondDiv2{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border: 5px solid rgb(0, 57, 13);
-  background-color: rgb(129, 126, 211);
-  text-align: center;
-  margin: 30px 35px 35px 40px; 
-  padding: 5px; 
-  color: rgb(255, 255, 255);
-  background-image: url(/images/Nyhet-bakgrunn.jpg);
-  justify-content: center;
-  background-size: cover;
+
+.nav{
+    position: fixed;
+    margin: 10px;
+    
 }
-.myThirdDiv{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border: 5px solid rgb(0, 57, 13);
-  background-color: rgb(129, 126, 211);
-  text-align: center;
-  margin: 60px 35px 35px 40px; 
-  padding: 5px; 
-  color: rgb(255, 255, 255);
-  display: flex;
-  justify-content: center;
+.nav ul{
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    padding: 0.5em;
+}
+.nav a:hover{
+    background-color: rgb(121, 53, 199);
+}
+
+.utplassering-nav{
+    text-align: center;
+    font-size: 1,5em;
+    font-weight: bold;
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1,5em;
+    font-weight: bold;
+}
+#about{
+    margin-top: 5em;
 }
