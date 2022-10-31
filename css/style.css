@@ -1,8 +1,8 @@
 #welcome-section{
-    background-image: url(/images/950x350-dim-gray-solid-color-background.jpg);
-    background-size: cover;
+    background-image: url(/images/Django-Unchained-banner.jpg);
+    background-size: 100% 100%;
     color: black;
-    height: 6em;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,15 +11,20 @@
 #welcome-section h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 2em;
+    color: antiquewhite;
 }
-
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
 .nav{
     position: fixed;
-    margin: 10px;
+    
     
 }
 .nav ul{
     margin: 0;
+    background: linear-gradient(#e66465, #9198e5);
 }
 
 .nav li{
@@ -29,24 +34,106 @@
 .nav a{
     display: inline-block;
     color: rgb(255, 255, 255);
-    background-color: blue;
     padding: 0.5em;
+    text-decoration: none;
 }
 .nav a:hover{
     background-color: rgb(121, 53, 199);
 }
 
+
+
+.main-nav{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    font-size: 1,5em;
+    font-weight: bold;
+}
 .utplassering-nav{
     text-align: center;
     font-size: 1,5em;
     font-weight: bold;
 }
+#about{
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'picture main main';
 
-.main-nav{
+    height: 100vh;
+    margin-top: 2em 10em 0 10em;
+}
+.section-header{
+    grid-area: header;
+    font-size: 2em;
+    color: rgb(0, 4, 7);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.about-image{
+    grid-area: picture;
+    float: left;
+    border-radius: 50%;
+    margin: 15px;
+}
+.about-content{
+    grid-area: main;
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+#footer ul{
+    margin: 0;
+}
+
+#footer li{
+    display: inline;
+}
+
+#footer a{
+    display: inline-block;
+    color: rgb(254, 254, 254);
+    background-color: rgb(98, 98, 207);
+    padding: 0.5em;
+    text-decoration: none;
+}
+#footer a:hover{
+    background-color: rgb(121, 53, 199);
+}
+
+#main-footer{
+    width: 100%;
     text-align: center;
     font-size: 1,5em;
     font-weight: bold;
 }
-#about{
-    margin-top: 5em;
+#utplassering{
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'picture main main';
+
+    height: 100vh;
+    margin-top: 2em 10em 0 10em;
+}
+.section-header2{
+    grid-area: header;
+    font-size: 2em;
+    color: rgb(0, 4, 7);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.utplassering-image{
+    grid-area: picture;
+    float: left;
+    border-radius: 50%;
+    margin: 15px;
+}
+.utplassering-content{
+    grid-area: main;
+    font-family: sans-serif;
+    font-size: 1em;
 }
